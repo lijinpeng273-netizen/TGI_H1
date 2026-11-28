@@ -1,0 +1,55 @@
+{
+  "MuJoCo": {
+    "project_blind": {
+      "trials": 3,
+      "improved": 2,
+      "nominal_rmse_rad": 0.008388323819490505,
+      "calibrated_rmse_rad": 0.005985231156908484,
+      "improvement_pct": 28.648067412447375
+    },
+    "project_fit": {
+      "trials": 4,
+      "improved": 3,
+      "nominal_rmse_rad": 0.007592404546534722,
+      "calibrated_rmse_rad": 0.004665204053584617,
+      "improvement_pct": 38.554327222804794
+    },
+    "project_validation": {
+      "trials": 5,
+      "improved": 4,
+      "nominal_rmse_rad": 0.009028242319579802,
+      "calibrated_rmse_rad": 0.006141068208412255,
+      "improvement_pct": 31.979359979140696
+    },
+    "small_validation": {
+      "trials": 39,
+      "improved": 39,
+      "nominal_rmse_rad": 0.009722313484345414,
+      "calibrated_rmse_rad": 0.005869673271024426,
+      "improvement_pct": 39.626784504782705
+    }
+  },
+  "Isaac Sim": {
+    "project_blind": {
+      "trials": 3,
+      "improved": 3,
+      "nominal_rmse_rad": 0.008388305366584584,
+      "calibrated_rmse_rad": 0.005554296033440556,
+      "improvement_pct": 33.785242778994515
+    },
+    "project_validation": {
+      "trials": 5,
+      "improved": 4,
+      "nominal_rmse_rad": 0.009028202431513678,
+      "calibrated_rmse_rad": 0.005682458060895927,
+      "improvement_pct": 37.05880983504709
+    },
+    "small_signal": {
+      "trials": 39,
+      "improved": 37,
+      "nominal_rmse_rad": 0.00972230273361929,
+      "calibrated_rmse_rad": 0.005318461379960238,
+      "improvement_pct": 45.29627881706219
+    }
+  }
+}

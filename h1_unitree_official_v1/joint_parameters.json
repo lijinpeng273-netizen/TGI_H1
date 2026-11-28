@@ -1,0 +1,325 @@
+{
+  "parameters": {
+    "left_ankle_joint": {
+      "armature": 0.03604541684339198,
+      "frictionloss": 1.1173611975204911,
+      "damping": 0.0003546791486888313
+    },
+    "left_elbow_joint": {
+      "armature": 0.007594113294180789,
+      "frictionloss": 0.2799516307736029,
+      "damping": 2.794602457683622e-06
+    },
+    "left_hip_pitch_joint": {
+      "armature": 2.491256689246394e-06,
+      "frictionloss": 2.3351216514734694,
+      "damping": 1.3953615948796394
+    },
+    "left_hip_roll_joint": {
+      "armature": 0.6032936597124212,
+      "frictionloss": 5.031951180728929,
+      "damping": 1.9322406302818784e-05
+    },
+    "left_hip_yaw_joint": {
+      "armature": 0.0019629672296798215,
+      "frictionloss": 2.7390327717073726,
+      "damping": 0.00016227854271330292
+    },
+    "left_knee_joint": {
+      "armature": 7.141604257472587e-05,
+      "frictionloss": 3.427533696278675,
+      "damping": 0.002658411940739503
+    },
+    "left_shoulder_pitch_joint": {
+      "armature": 7.462634281443384e-08,
+      "frictionloss": 1.268847713340166,
+      "damping": 1.0338427212386547
+    },
+    "left_shoulder_roll_joint": {
+      "armature": 6.488087131068392e-05,
+      "frictionloss": 1.076079484347947,
+      "damping": 0.00279457100914295
+    },
+    "left_shoulder_yaw_joint": {
+      "armature": 1.2629111867120961e-05,
+      "frictionloss": 0.4085626063174509,
+      "damping": 0.00016480823242574468
+    },
+    "right_ankle_joint": {
+      "armature": 0.06404816298332627,
+      "frictionloss": 0.5699580697230334,
+      "damping": 3.787450390695106e-05
+    },
+    "right_elbow_joint": {
+      "armature": 0.020693599323193968,
+      "frictionloss": 0.30584271736525975,
+      "damping": 0.00010682178194413143
+    },
+    "right_hip_pitch_joint": {
+      "armature": 2.3219935252187574e-06,
+      "frictionloss": 1.550142790933264,
+      "damping": 6.909071191486284
+    },
+    "right_hip_roll_joint": {
+      "armature": 0.10760036062075734,
+      "frictionloss": 2.411253120351933,
+      "damping": 0.5089459786769349
+    },
+    "right_hip_yaw_joint": {
+      "armature": 0.004217250025624301,
+      "frictionloss": 3.0280826875094133,
+      "damping": 3.409763578494983e-06
+    },
+    "right_knee_joint": {
+      "armature": 0.00017491800988135125,
+      "frictionloss": 2.9338643445206882,
+      "damping": 0.003114963003192181
+    },
+    "right_shoulder_pitch_joint": {
+      "armature": 3.036619697445423e-06,
+      "frictionloss": 1.4079657874493967,
+      "damping": 0.000354110143845826
+    },
+    "right_shoulder_roll_joint": {
+      "armature": 0.0679102806217103,
+      "frictionloss": 1.0111745380476191,
+      "damping": 6.354482655502572e-05
+    },
+    "right_shoulder_yaw_joint": {
+      "armature": 4.338442359717937e-06,
+      "frictionloss": 0.18570599714138675,
+      "damping": 0.5170068577263994
+    },
+    "torso_joint": {
+      "armature": 3.557280218832953e-07,
+      "frictionloss": 1.9742826947325538,
+      "damping": 0.08898223868304805
+    }
+  },
+  "fit": {
+    "left_ankle_joint": {
+      "fit_datasets": [
+        "datasets/h1/real/left_ankle/fit_sine_0p5hz.pt",
+        "datasets/h1/real/left_ankle/fit_sine_2hz.pt"
+      ],
+      "nominal_mse": 0.000352311009815725,
+      "calibrated_mse": 2.6631515831619074e-05,
+      "generations": 45,
+      "evaluations": 631,
+      "seed": 20261126
+    },
+    "left_elbow_joint": {
+      "fit_datasets": [
+        "datasets/h1/real/left_elbow/fit_sine_0p5hz.pt",
+        "datasets/h1/real/left_elbow/fit_sine_2hz.pt"
+      ],
+      "nominal_mse": 1.9261474552053138e-05,
+      "calibrated_mse": 1.4166645456623606e-05,
+      "generations": 45,
+      "evaluations": 631,
+      "seed": 20261127
+    },
+    "left_hip_pitch_joint": {
+      "fit_datasets": [
+        "datasets/h1/real/left_hip_pitch/fit_sine_0p5hz.pt",
+        "datasets/h1/real/left_hip_pitch/fit_sine_2hz.pt"
+      ],
+      "nominal_mse": 0.00024071548501894231,
+      "calibrated_mse": 1.4442934361228125e-05,
+      "generations": 45,
+      "evaluations": 631,
+      "seed": 20261128
+    },
+    "left_hip_roll_joint": {
+      "fit_datasets": [
+        "datasets/h1/real/left_hip_roll/fit_sine_0p5hz.pt",
+        "datasets/h1/real/left_hip_roll/fit_sine_2hz.pt"
+      ],
+      "nominal_mse": 0.0004550646565564297,
+      "calibrated_mse": 0.00015237904971457798,
+      "generations": 45,
+      "evaluations": 631,
+      "seed": 20261129
+    },
+    "left_hip_yaw_joint": {
+      "fit_datasets": [
+        "datasets/h1/real/left_hip_yaw/fit_sine_0p5hz.pt",
+        "datasets/h1/real/left_hip_yaw/fit_sine_2hz.pt"
+      ],
+      "nominal_mse": 0.00015187112029990864,
+      "calibrated_mse": 4.042043409335829e-05,
+      "generations": 45,
+      "evaluations": 631,
+      "seed": 20261130
+    },
+    "left_knee_joint": {
+      "fit_datasets": [
+        "datasets/h1/real/left_knee/fit_sine_0p5hz.pt",
+        "datasets/h1/real/left_knee/fit_sine_2hz.pt"
+      ],
+      "nominal_mse": 6.913692187848818e-05,
+      "calibrated_mse": 1.9369708250001077e-05,
+      "generations": 45,
+      "evaluations": 631,
+      "seed": 20261131
+    },
+    "left_shoulder_pitch_joint": {
+      "fit_datasets": [
+        "datasets/h1/real/left_shoulder_pitch/fit_sine_0p5hz.pt",
+        "datasets/h1/real/left_shoulder_pitch/fit_sine_2hz.pt"
+      ],
+      "nominal_mse": 0.00015190522862603025,
+      "calibrated_mse": 1.1236833840921434e-05,
+      "generations": 45,
+      "evaluations": 631,
+      "seed": 20261132
+    },
+    "left_shoulder_roll_joint": {
+      "fit_datasets": [
+        "datasets/h1/real/left_shoulder_roll/fit_sine_0p5hz.pt",
+        "datasets/h1/real/left_shoulder_roll/fit_sine_2hz.pt"
+      ],
+      "nominal_mse": 0.00011039154461864122,
+      "calibrated_mse": 4.1490388107506125e-05,
+      "generations": 45,
+      "evaluations": 631,
+      "seed": 20261133
+    },
+    "left_shoulder_yaw_joint": {
+      "fit_datasets": [
+        "datasets/h1/real/left_shoulder_yaw/fit_sine_0p5hz.pt",
+        "datasets/h1/real/left_shoulder_yaw/fit_sine_2hz.pt"
+      ],
+      "nominal_mse": 1.070122644288837e-05,
+      "calibrated_mse": 2.004672207449296e-06,
+      "generations": 45,
+      "evaluations": 631,
+      "seed": 20261134
+    },
+    "right_ankle_joint": {
+      "fit_datasets": [
+        "datasets/h1/real/right_ankle/fit_sine_0p5hz.pt",
+        "datasets/h1/real/right_ankle/fit_sine_2hz.pt"
+      ],
+      "nominal_mse": 0.00010474635216092125,
+      "calibrated_mse": 1.0038966260580166e-05,
+      "generations": 45,
+      "evaluations": 631,
+      "seed": 20261135
+    },
+    "right_elbow_joint": {
+      "fit_datasets": [
+        "datasets/h1/real/right_elbow/fit_sine_0p5hz.pt",
+        "datasets/h1/real/right_elbow/fit_sine_2hz.pt"
+      ],
+      "nominal_mse": 1.5393359744554363e-05,
+      "calibrated_mse": 1.0462053872232448e-05,
+      "generations": 45,
+      "evaluations": 631,
+      "seed": 20261136
+    },
+    "right_hip_pitch_joint": {
+      "fit_datasets": [
+        "datasets/h1/real/right_hip_pitch/fit_sine_0p5hz.pt",
+        "datasets/h1/real/right_hip_pitch/fit_sine_2hz.pt"
+      ],
+      "nominal_mse": 0.0002239074114376147,
+      "calibrated_mse": 1.9336220195008002e-05,
+      "generations": 45,
+      "evaluations": 631,
+      "seed": 20261137
+    },
+    "right_hip_roll_joint": {
+      "fit_datasets": [
+        "datasets/h1/real/right_hip_roll/fit_sine_0p5hz.pt",
+        "datasets/h1/real/right_hip_roll/fit_sine_2hz.pt"
+      ],
+      "nominal_mse": 0.00044201343537785025,
+      "calibrated_mse": 0.0002246450261296072,
+      "generations": 45,
+      "evaluations": 631,
+      "seed": 20261138
+    },
+    "right_hip_yaw_joint": {
+      "fit_datasets": [
+        "datasets/h1/real/right_hip_yaw/fit_sine_0p5hz.pt",
+        "datasets/h1/real/right_hip_yaw/fit_sine_2hz.pt"
+      ],
+      "nominal_mse": 0.00013569002366277603,
+      "calibrated_mse": 1.9832782201999938e-05,
+      "generations": 45,
+      "evaluations": 631,
+      "seed": 20261139
+    },
+    "right_knee_joint": {
+      "fit_datasets": [
+        "datasets/h1/real/right_knee/fit_sine_0p5hz.pt",
+        "datasets/h1/real/right_knee/fit_sine_2hz.pt"
+      ],
+      "nominal_mse": 6.714139272710276e-05,
+      "calibrated_mse": 2.5215146256151743e-05,
+      "generations": 45,
+      "evaluations": 631,
+      "seed": 20261140
+    },
+    "right_shoulder_pitch_joint": {
+      "fit_datasets": [
+        "datasets/h1/real/right_shoulder_pitch/fit_sine_0p5hz.pt",
+        "datasets/h1/real/right_shoulder_pitch/fit_sine_2hz.pt"
+      ],
+      "nominal_mse": 0.00023181665703869234,
+      "calibrated_mse": 9.921614978711837e-05,
+      "generations": 45,
+      "evaluations": 631,
+      "seed": 20261141
+    },
+    "right_shoulder_roll_joint": {
+      "fit_datasets": [
+        "datasets/h1/real/right_shoulder_roll/fit_sine_0p5hz.pt",
+        "datasets/h1/real/right_shoulder_roll/fit_sine_2hz.pt"
+      ],
+      "nominal_mse": 0.00013861766168559185,
+      "calibrated_mse": 7.257377140329168e-05,
+      "generations": 45,
+      "evaluations": 631,
+      "seed": 20261142
+    },
+    "right_shoulder_yaw_joint": {
+      "fit_datasets": [
+        "datasets/h1/real/right_shoulder_yaw/fit_sine_0p5hz.pt",
+        "datasets/h1/real/right_shoulder_yaw/fit_sine_2hz.pt"
+      ],
+      "nominal_mse": 6.823140667905805e-06,
+      "calibrated_mse": 3.0925507844250327e-06,
+      "generations": 45,
+      "evaluations": 631,
+      "seed": 20261143
+    },
+    "torso_joint": {
+      "fit_datasets": [
+        "datasets/h1/real/torso/fit_sine_0p5hz.pt",
+        "datasets/h1/real/torso/fit_sine_2hz.pt"
+      ],
+      "nominal_mse": 2.9961335968657483e-05,
+      "calibrated_mse": 1.910697909046717e-06,
+      "generations": 45,
+      "evaluations": 631,
+      "seed": 20261144
+    }
+  },
+  "frequency_hz": 500,
+  "cma_bounds": {
+    "armature": [
+      0.0,
+      1.2
+    ],
+    "frictionloss": [
+      0.0,
+      8.0
+    ],
+    "damping": [
+      0.0,
+      12.0
+    ]
+  }
+}
